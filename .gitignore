@@ -29,6 +29,7 @@ Scripts/
 
 # Package managers
 uv.lock
+.uv/
 
 # IDE
 .vscode/
