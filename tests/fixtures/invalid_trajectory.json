@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "robot_id": "test_robot",
+  "coordinate_frame": "base",
+  "position_unit": "m",
+  "angle_unit": "rad",
+  "trajectories": [
+    {
+      "episode_id": "ep1",
+      "timestamp_ms": 1000,
+      "eef_position": [0.1, 0.2, 0.3],
+      "eef_velocity": [0.0, 0.0, 0.0],
+      "joint_positions": [0.0, 0.5, 1.0]
+    },
+    {
+      "episode_id": "ep1",
+      "timestamp_ms": 500,
+      "eef_position": [0.15, 0.25, 0.35],
+      "eef_velocity": [0.01, 0.01, 0.01],
+      "joint_positions": [0.1, 0.6, 1.1]
+    }
+  ]
+}
